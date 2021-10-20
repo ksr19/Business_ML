@@ -130,3 +130,5 @@ dmypy.json
 
 # Lection materials
 lection[0-9]_materials/
+
+.idea/
