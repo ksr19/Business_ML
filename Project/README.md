@@ -42,7 +42,7 @@ $ docker build -t model .
 ### Запускаем контейнер
 
 ```
-$ docker run -d -p 8180:8180 -p 8181:8181 -v model/:/app/app/models model 
+$ docker run -d -p 8180:8180 -p 8181:8181 -v $(pwd)/model:/app/app/models model 
 ```
 
 Переходим на localhost:8181 и вводим клиентские данные, после чего получаем вероятность того, что клиент отменит подписку
